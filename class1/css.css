@@ -14,7 +14,7 @@
 	border-right: 1px;
 }
 
-.menu li: hover{
+.menu li:hover{
 	background-color: grey;
 
 }
@@ -32,8 +32,6 @@
 	top: 20;
 	left: -1px;
 	width: 100%;
-
-
 }
 .submenu {
 	border-bottom: none;
