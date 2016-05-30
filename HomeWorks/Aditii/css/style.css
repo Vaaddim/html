@@ -1,0 +1,313 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600&subset=latin,cyrillic);
+@font-face {
+    font-family: AA Bebas Neue;
+    src: url(../fonts/AA_BEBAS_NEUE.ttf);
+}
+@font-face {
+    font-family: Lobster;
+    src: url(../fonts/Lobster.ttf);
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html{
+	height: 100%;
+	font-size: 16px;
+}
+
+/*------------------- COMMON STYLES -------------------*/
+
+.bebas-grey{
+	font-family: "AA Bebas Neue";
+	color: #AFAFAF;
+}
+.bebas-white{
+	font-family: "AA Bebas Neue";
+	color: white;
+}
+
+.block-style{
+	background-color: #4CCFC1;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+
+.block-back{ 
+	width: 100%;
+}
+
+.block-back-white{ 
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+
+
+/*-----------------------------------------------------*/
+
+
+body{
+	background: url(../img/back2.jpg) center;
+   font-family: "Open Sans", Verdana, Segoe, sans-serif;
+   height: 100%;
+   color: white;
+}
+
+.clearfix:after{ 
+	content "";
+	display: table;
+	clear: both;
+}
+
+header{
+	padding-top: 20px;
+	text-align: center;
+	height: 84px;
+	width: 100%;
+	background: white;
+}
+
+.wrapper-head{
+	padding: 0;
+	background-size: auto;
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+
+}
+
+.logo{
+	margin-left: 25px;
+	float: left;
+	font-family: "Lobster";
+	font-size: 49px;
+	color: #3CC3B5;
+}
+
+.cart{
+	margin-right: 25px;
+	margin-top: -40px;
+	float: right;
+	font-size: 33px;
+}
+
+input[type="text"]{
+	margin-top: 10px;
+	background: url(../img/search.png) right no-repeat;
+	width: 438px;
+	height: 35px;
+	font-family: "Open Sans";
+	color: #AFAFAF;
+	font-size: 14px;
+	border: 1px solid #E1E1E1;
+	border-radius: 1px;
+	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+.menu{
+	width: 100%;
+	bottom: 0;
+	padding: 5px;
+	height: auto;
+	font-size: 21px;
+}
+
+.menu a{
+	padding-right: 20px; 
+	border-right: 2px solid white;
+	margin-left: 18px;
+}
+
+.menu a:last-of-type{
+	border:none;
+	padding-right: none;
+}
+
+
+.slider{
+	margin-top: 103px;
+	margin-left: 76px;
+	width: 783px;
+	height: 275px;
+}
+
+.slider-text {
+	width: 402px;
+	float: right;
+}
+
+.slider-title{
+	font-size: 61px;
+	line-height: 1.1;
+}
+
+.slider-picture {
+	float: left;
+}
+
+.slider-text {
+	width: 402px;
+	float: right;
+}
+
+.slider-descrip {
+	margin-top: 10px;
+	line-height: 2;
+}
+
+.btn-shop{
+	padding: 5px 20px 5px 20px;
+	font-size: 27px;
+	margin-top: 10px;
+	background: none;
+	border: 3px solid white;
+	border-radius: 5px;
+}
+
+.listalka li{
+	margin-top: 10px;
+	font-size: 40px;
+	float: left;
+}
+
+.on-screen {
+	opacity: 0.4;
+}
+
+.line{
+	margin-top: 90px;
+	height: 191px;
+}
+
+.line .line3:last-of-type{
+border: 0;
+}
+
+.line3{
+	position: relative;
+	padding: 20px;
+	float: left;
+	display: inline;
+	width: 340px;
+	height: 191px;
+	border-right: 1px solid #E1E1E1;
+}
+
+.line3-img{
+	position: absolute;
+	width: 135px;
+	right: 200px;
+	top: 30px;
+	}
+
+.line3-name {
+	position: absolute;
+	left: 170px;
+	top: 40px;
+	font-size: 27px;
+}
+
+.line3-btn{
+	top:100px;
+	position: absolute;
+	left: 170px;
+}
+
+.line3-btn-shop{
+	position: absolute;
+	font-size: 19px;
+	border: 0;
+ 	border-radius: 3px;
+  	background-color: rgb(60, 195, 149);
+  	width: 59px;
+  	height: 32px;
+}
+
+
+
+
+.line6-title{
+	margin-top: 20px;
+	height:45px;
+}
+
+h2{
+	font-size: 27px;
+}
+
+
+
+
+.grid{
+
+	height: 690px;
+}
+/*
+.raw .grid6:last-of-type{
+margin: 0;
+}*/
+
+.raw{
+	padding-left: 50px;
+}
+.grid6{
+	margin-top: 50px;
+	margin-right: 50px;
+
+	position: relative;
+	padding: 20px;
+	float: left;
+	display: inline;
+	width: 253px;
+	height: 253px;
+	text-align: center;
+	border: 1px solid #E1E1E1;
+	border-radius: 1px;
+	border-bottom: 4px solid #3CC395;
+	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+.grid6-img{
+	width: 139px;
+	top: 20px;
+	}
+
+.grid6-name {
+
+	top: 40px;
+	font-size: 27px;
+}
+
+.grid6-price {
+	position: absolute;
+	left: -45px;
+	width: 100%;
+	top: 195px;
+	font-size: 27px;
+}
+
+.grid6-btn{
+	position: absolute;
+	top: 190px;
+
+	right: 45px;
+
+
+}
+
+.grid6-btn-shop{
+	display: inline;
+	font-size: 19px;
+	border: 0;
+ 	border-radius: 3px;
+  	background-color: rgb(60, 195, 149);
+  	width: 59px;
+  	height: 32px;
+}

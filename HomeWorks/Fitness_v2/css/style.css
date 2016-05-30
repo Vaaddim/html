@@ -55,6 +55,7 @@ html, body, #wrap{
 	z-index: 2;
 	margin-top: 83px;
 	width: 100%;
+	right: 100%;
 }
 
 .menu li{
