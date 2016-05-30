@@ -100,7 +100,8 @@ header{
 
 input[type="text"]{
 	margin-top: 10px;
-	background: url(../img/search.png) right no-repeat;
+	background: url(../img/search.png) no-repeat;
+	background-position: 98%;
 	width: 438px;
 	height: 35px;
 	font-family: "Open Sans";
