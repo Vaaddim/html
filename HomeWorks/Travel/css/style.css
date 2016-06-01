@@ -73,10 +73,9 @@ body{
 }
 
 .menu .menu_flag{
-	background: url(src="..img/flag.png") no-repeat;
-	padding-left: 5px; 
+	background: url(src="../img/flag.png") no-repeat;
+	padding-left: 30px; 
 	background-position: 2%;
-
 	border-left: 1px solid #56A2DC;
 }
 

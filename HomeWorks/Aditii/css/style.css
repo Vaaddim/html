@@ -67,24 +67,25 @@ body{
 }
 
 header{
-	padding-top: 20px;
 	text-align: center;
 	height: 84px;
 	width: 100%;
 	background: white;
 }
 
-.wrapper-head{
-	padding: 0;
-	background-size: auto;
-	width: 1024px;
-	height: 100%;
+.head{
+	padding: 20px 11%;
+	line-height: 40px;
 	margin: 0 auto;
 
 }
 
+.wrapper-head{
+	padding: 0 11%;
+	margin: 0 auto;
+}
+
 .logo{
-	margin-left: 25px;
 	float: left;
 	font-family: "Lobster";
 	font-size: 49px;
@@ -92,14 +93,20 @@ header{
 }
 
 .cart{
-	margin-right: 25px;
-	margin-top: -40px;
+	display: inline-block;
+	font-size: 35px;
+	padding: 5px;
+	padding-left: 50px;
+	line-height: 40px;
 	float: right;
-	font-size: 33px;
+	background: url(../img/cart.png) no-repeat;
+	background-position: 3%;
+	background-size: auto;
 }
 
+
 input[type="text"]{
-	margin-top: 10px;
+	
 	background: url(../img/search.png) no-repeat;
 	background-position: 98%;
 	width: 438px;
@@ -115,8 +122,7 @@ input[type="text"]{
 .menu{
 	width: 100%;
 	bottom: 0;
-	padding: 5px;
-	height: auto;
+	line-height: 40px;
 	font-size: 21px;
 }
 
@@ -126,36 +132,37 @@ input[type="text"]{
 	margin-left: 18px;
 }
 
-.menu a:last-of-type{
+.menu a:last-child{
 	border:none;
 	padding-right: none;
 }
 
 
+
+
+
 .slider{
-	margin-top: 103px;
-	margin-left: 76px;
-	width: 783px;
-	height: 275px;
+	width: 70%;
+	margin:0 auto;
+}
+
+.slider_picture {
+	width: 40%;
+	float: left;
+}
+
+.slider_picture img{
+	width: 100%;
 }
 
 .slider-text {
-	width: 402px;
+	width: 50%;
 	float: right;
 }
 
 .slider-title{
 	font-size: 61px;
 	line-height: 1.1;
-}
-
-.slider-picture {
-	float: left;
-}
-
-.slider-text {
-	width: 402px;
-	float: right;
 }
 
 .slider-descrip {
@@ -250,6 +257,7 @@ h2{
 
 	height: 690px;
 }
+
 /*
 .raw .grid6:last-of-type{
 margin: 0;
