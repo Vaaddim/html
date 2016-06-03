@@ -190,7 +190,7 @@ input[type="text"]{
 }
 
 .line{
-	margin-top: 90px;
+
 	height: 191px;
 }
 
@@ -203,8 +203,8 @@ border: 0;
 	padding: 20px;
 	float: left;
 	display: inline;
-	width: 340px;
-	height: 191px;
+	width: 33%;
+	
 	border-right: 1px solid #E1E1E1;
 }
 

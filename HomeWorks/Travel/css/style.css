@@ -73,9 +73,9 @@ body{
 }
 
 .menu .menu_flag{
-	background: url(src="../img/flag.png") no-repeat;
+	background: url("../img/flag.png") no-repeat;
 	padding-left: 30px; 
-	background-position: 2%;
+	background-position: 6%;
 	border-left: 1px solid #56A2DC;
 }
 
@@ -169,7 +169,7 @@ h2 {
 	box-shadow: 0px 0px 20px rgba(53,231,244,1);
 }
 
-input[type="text" name="firstname"]{
+input[name="firstname"]{
 	background-color: #1B5288;
 }
 
