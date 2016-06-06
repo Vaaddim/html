@@ -1,27 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600&subset=latin,cyrillic);
 @font-face {
-    font-family: AA Bebas Neue;
-    src: url(../fonts/AA_BEBAS_NEUE.ttf);
+	font-family: AA Bebas Neue;
+	src: url(../fonts/AA_BEBAS_NEUE.ttf);
 }
 @font-face {
-    font-family: Lobster;
-    src: url(../fonts/Lobster.ttf);
+	font-family: Lobster;
+	src: url(../fonts/Lobster.ttf);
 }
-
 
 *{
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+a{
+	text-decoration: none;
+	color: white;
 }
 
 html{
 	height: 100%;
 	font-size: 16px;
 }
+
+/*div{
+	border: 1px solid black;
+}*/
 
 /*------------------- COMMON STYLES -------------------*/
 
@@ -34,16 +37,12 @@ html{
 	color: white;
 }
 
-.block-style{
+.block-blue{
 	background-color: #4CCFC1;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
 }
 
-.block-back{ 
-	width: 100%;
-}
-
-.block-back-white{ 
+.back-white{ 
 	width: 100%;
 	background-color: white;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
@@ -55,13 +54,13 @@ html{
 
 body{
 	background: url(../img/back2.jpg) center;
-   font-family: "Open Sans", Verdana, Segoe, sans-serif;
-   height: 100%;
-   color: white;
+	font-family: "Open Sans", Verdana, Segoe, sans-serif;
+	height: 100%;
+	color: white;
 }
 
 .clearfix:after{ 
-	content "";
+	content: "";
 	display: table;
 	clear: both;
 }
@@ -73,11 +72,10 @@ header{
 	background: white;
 }
 
-.head{
-	padding: 20px 11%;
+.top{
+	padding: 16px 11%;
 	line-height: 40px;
 	margin: 0 auto;
-
 }
 
 .wrapper-head{
@@ -104,7 +102,6 @@ header{
 	background-size: auto;
 }
 
-
 input[type="text"]{
 	
 	background: url(../img/search.png) no-repeat;
@@ -121,7 +118,6 @@ input[type="text"]{
 
 .menu{
 	width: 100%;
-	bottom: 0;
 	line-height: 40px;
 	font-size: 21px;
 }
@@ -134,7 +130,7 @@ input[type="text"]{
 
 .menu a:last-child{
 	border:none;
-	padding-right: none;
+	padding-right: 0;
 }
 
 
@@ -142,18 +138,18 @@ input[type="text"]{
 
 
 .slider{
+	position: relative;
 	width: 70%;
 	margin:0 auto;
+	height: 446px;
 }
 
 .slider_picture {
+	text-align: center;
 	width: 40%;
 	float: left;
 }
 
-.slider_picture img{
-	width: 100%;
-}
 
 .slider-text {
 	width: 50%;
@@ -170,7 +166,7 @@ input[type="text"]{
 	line-height: 2;
 }
 
-.btn-shop{
+.shop-now{
 	padding: 5px 20px 5px 20px;
 	font-size: 27px;
 	margin-top: 10px;
@@ -179,6 +175,12 @@ input[type="text"]{
 	border-radius: 5px;
 }
 
+.listalka{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 32px;
+}
 .listalka li{
 	margin-top: 10px;
 	font-size: 40px;
@@ -189,134 +191,144 @@ input[type="text"]{
 	opacity: 0.4;
 }
 
-.line{
 
-	height: 191px;
+
+.slider3{
+height: 192px;
 }
 
-.line .line3:last-of-type{
-border: 0;
+.slider3 .slider3-box:last-child{
+	border: 0;
 }
 
-.line3{
+.slider3-box{
+	height: 100%;
 	position: relative;
-	padding: 20px;
 	float: left;
 	display: inline;
 	width: 33%;
-	
 	border-right: 1px solid #E1E1E1;
 }
 
-.line3-img{
+.slider3-box-pic{
 	position: absolute;
-	width: 135px;
-	right: 200px;
-	top: 30px;
-	}
+	left: 0;
+	top: 20px;
+	width: 55%;
+	height: 150px;
+}
 
-.line3-name {
+.slider3-box-pic img{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+}
+
+.slider3-box-text{
 	position: absolute;
-	left: 170px;
-	top: 40px;
+	right: 0;
+	width: 45%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.slider3-box-text span{
 	font-size: 27px;
+	line-height: 30px;
+	max-height: 60px;
+	overflow: hidden;
 }
 
-.line3-btn{
-	top:100px;
-	position: absolute;
-	left: 170px;
-}
-
-.line3-btn-shop{
-	position: absolute;
+.slider3-box-text input[name="shop"]{
+	padding: 5px 15px;
+	margin-top: 20px;
+	display: block;
 	font-size: 19px;
 	border: 0;
  	border-radius: 3px;
   	background-color: rgb(60, 195, 149);
-  	width: 59px;
-  	height: 32px;
-}
-
-
-
-
-.line6-title{
-	margin-top: 20px;
-	height:45px;
 }
 
 h2{
 	font-size: 27px;
+	line-height: 66px;
 }
 
-
-
-
-.grid{
-
+.grid6{
 	height: 690px;
 }
 
-/*
-.raw .grid6:last-of-type{
-margin: 0;
-}*/
-
-.raw{
-	padding-left: 50px;
-}
-.grid6{
+.grid6-box{
+	height: 256px;
 	margin-top: 50px;
-	margin-right: 50px;
-
-	position: relative;
-	padding: 20px;
+	margin-right: 6%;
+	width: 27.3%;
+	padding: 5px;
 	float: left;
-	display: inline;
-	width: 253px;
-	height: 253px;
-	text-align: center;
 	border: 1px solid #E1E1E1;
 	border-radius: 1px;
 	border-bottom: 4px solid #3CC395;
 	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+	text-align: center;
 }
 
-.grid6-img{
-	width: 139px;
-	top: 20px;
-	}
-
-.grid6-name {
-
-	top: 40px;
-	font-size: 27px;
+.grid6-box-pic{
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
 }
 
-.grid6-price {
-	position: absolute;
-	left: -45px;
+.grid6-box-text{
 	width: 100%;
-	top: 195px;
+}
+
+.grid6-box-text span{
 	font-size: 27px;
+	line-height: 30px;
+	max-height: 60px;
+	overflow: hidden;
 }
 
-.grid6-btn{
-	position: absolute;
-	top: 190px;
+.grid6-box-text input[name="shop"]{
+	padding: 5px 15px;
+	margin-top: 20px;
 
-	right: 45px;
-
-
-}
-
-.grid6-btn-shop{
-	display: inline;
 	font-size: 19px;
 	border: 0;
  	border-radius: 3px;
   	background-color: rgb(60, 195, 149);
-  	width: 59px;
-  	height: 32px;
+	margin: 0 auto;
+}
+
+.price {
+	font-size: 27px;
+}
+
+.footer-menu{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer-menu-column{
+	width: 25%;
+	float: left;
+}
+
+h3{
+	font-size: 27px;
+	margin: 20px 0;
+}
+
+.footer-menu-column li{
+ line-height: 1.6;
+}
+
+.copyright{
+	height: 50px;
+	text-align: center;
+}
+
+.copyright span{
+	line-height: 50px;
 }
