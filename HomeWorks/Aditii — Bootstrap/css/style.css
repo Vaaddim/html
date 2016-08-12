@@ -1,0 +1,334 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600&subset=latin,cyrillic);
+@font-face {
+	font-family: AA Bebas Neue;
+	src: url(../fonts/AA_BEBAS_NEUE.ttf);
+}
+@font-face {
+	font-family: Lobster;
+	src: url(../fonts/Lobster.ttf);
+}
+
+*{
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+html{
+	height: 100%;
+	font-size: 16px;
+}
+
+/*div{
+	border: 1px solid black;
+}*/
+
+/*------------------- COMMON STYLES -------------------*/
+
+.bebas-grey{
+	font-family: "AA Bebas Neue";
+	color: #AFAFAF;
+}
+.bebas-white{
+	font-family: "AA Bebas Neue";
+	color: white;
+}
+
+.block-blue{
+	background-color: #4CCFC1;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+
+.back-white{ 
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+
+
+/*-----------------------------------------------------*/
+
+
+body{
+	background: url(../img/back2.jpg) center;
+	font-family: "Open Sans", Verdana, Segoe, sans-serif;
+	height: 100%;
+	color: white;
+}
+
+.clearfix:after{ 
+	content: "";
+	display: table;
+	clear: both;
+}
+
+header{
+	text-align: center;
+	height: 84px;
+	width: 100%;
+	background: white;
+}
+
+.top{
+	padding: 16px 11%;
+	line-height: 40px;
+	margin: 0 auto;
+}
+
+.wrapper-head{
+	padding: 0 11%;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	font-family: "Lobster";
+	font-size: 49px;
+	color: #3CC3B5;
+}
+
+.cart{
+	display: inline-block;
+	font-size: 35px;
+	padding: 5px;
+	padding-left: 50px;
+	line-height: 40px;
+	float: right;
+	background: url(../img/cart.png) no-repeat;
+	background-position: 3%;
+	background-size: auto;
+}
+
+input[type="text"]{
+	
+	background: url(../img/search.png) no-repeat;
+	background-position: 98%;
+	width: 438px;
+	height: 35px;
+	font-family: "Open Sans";
+	color: #AFAFAF;
+	font-size: 14px;
+	border: 1px solid #E1E1E1;
+	border-radius: 1px;
+	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+.menu{
+	width: 100%;
+	line-height: 40px;
+	font-size: 21px;
+}
+
+.menu a{
+	padding-right: 20px; 
+	border-right: 2px solid white;
+	margin-left: 18px;
+}
+
+.menu a:last-child{
+	border:none;
+	padding-right: 0;
+}
+
+
+
+
+
+.slider{
+	position: relative;
+	width: 70%;
+	margin:0 auto;
+	height: 446px;
+}
+
+.slider_picture {
+	text-align: center;
+	width: 40%;
+	float: left;
+}
+
+
+.slider-text {
+	width: 50%;
+	float: right;
+}
+
+.slider-title{
+	font-size: 61px;
+	line-height: 1.1;
+}
+
+.slider-descrip {
+	margin-top: 10px;
+	line-height: 2;
+}
+
+.shop-now{
+	padding: 5px 20px 5px 20px;
+	font-size: 27px;
+	margin-top: 10px;
+	background: none;
+	border: 3px solid white;
+	border-radius: 5px;
+}
+
+.listalka{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 32px;
+}
+.listalka li{
+	margin-top: 10px;
+	font-size: 40px;
+	float: left;
+}
+
+.on-screen {
+	opacity: 0.4;
+}
+
+
+
+.slider3{
+height: 192px;
+}
+
+.slider3 .slider3-box:last-child{
+	border: 0;
+}
+
+.slider3-box{
+	height: 100%;
+	position: relative;
+	float: left;
+	display: inline;
+	width: 33%;
+	border-right: 1px solid #E1E1E1;
+}
+
+.slider3-box-pic{
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 55%;
+	height: 150px;
+}
+
+.slider3-box-pic img{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+}
+
+.slider3-box-text{
+	position: absolute;
+	right: 0;
+	width: 45%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.slider3-box-text span{
+	font-size: 27px;
+	line-height: 30px;
+	max-height: 60px;
+	overflow: hidden;
+}
+
+.slider3-box-text input[name="shop"]{
+	padding: 5px 15px;
+	margin-top: 20px;
+	display: block;
+	font-size: 19px;
+	border: 0;
+ 	border-radius: 3px;
+  	background-color: rgb(60, 195, 149);
+}
+
+h2{
+	font-size: 27px;
+	line-height: 66px;
+}
+
+.grid6{
+	height: 690px;
+}
+
+.grid6-box{
+	height: 256px;
+	margin-top: 50px;
+	margin-right: 6%;
+	width: 27.3%;
+	padding: 5px;
+	float: left;
+	border: 1px solid #E1E1E1;
+	border-radius: 1px;
+	border-bottom: 4px solid #3CC395;
+	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+	text-align: center;
+}
+
+.grid6-box-pic{
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+}
+
+.grid6-box-text{
+	width: 100%;
+}
+
+.grid6-box-text span{
+	font-size: 27px;
+	line-height: 30px;
+	max-height: 60px;
+	overflow: hidden;
+}
+
+.grid6-box-text input[name="shop"]{
+	padding: 5px 15px;
+	margin-top: 20px;
+
+	font-size: 19px;
+	border: 0;
+ 	border-radius: 3px;
+  	background-color: rgb(60, 195, 149);
+	margin: 0 auto;
+}
+
+.price {
+	font-size: 27px;
+}
+
+.footer-menu{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer-menu-column{
+	width: 25%;
+	float: left;
+}
+
+h3{
+	font-size: 27px;
+	margin: 20px 0;
+}
+
+.footer-menu-column li{
+ line-height: 1.6;
+}
+
+.copyright{
+	height: 50px;
+	text-align: center;
+}
+
+.copyright span{
+	line-height: 50px;
+}
