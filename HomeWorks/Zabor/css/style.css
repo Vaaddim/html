@@ -1,9 +1,1 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600&subset=latin,cyrillic);
-
-body{
-	background: url(../img/back_wood.jpg);
-	background-attachment: fixed;
-	font-family: "Open Sans", Verdana, Segoe, sans-serif;
-	height: 100%;
-	color: white;
-}
+body{background:url(../img/back_wood.jpg);background-attachment:fixed;font-family:"Open Sans",Verdana,Segoe,sans-serif;height:100%;color:#fff}.illustration{position:absolute}.headerImgLeft,.headerImgRight{position:relative;width:35%}.headerImgCenter{width:30%;margin:0 auto}
