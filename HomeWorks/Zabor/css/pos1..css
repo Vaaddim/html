@@ -1,0 +1,100 @@
+/*LEFT SIDE*/
+
+.socBlock{
+	left: 10px;
+	top: 25px;
+}
+
+#plane{
+	left: 318px;
+	top: -10px;
+}
+
+#sunny{
+	left: 114px;
+	top: -48px;
+}
+
+#tree1sign{
+	left: 97px;
+	top: 215px;
+}
+
+#tree2map{
+	left: 121px;
+	top: 170px;
+}
+
+#tree3aboutZ{
+	left: 169px;
+	top: 149px;
+}
+
+#tree4culture{
+	left: 235px;
+	top: 207px;
+}
+
+#tree5afisha{
+	left: 297px;
+	top: 227px;
+}
+
+
+/*RIGHT SIDE*/
+
+#taxi{
+	right: 316px;
+	top: 236px;
+}
+
+#train{
+	right: -10px;
+	top: 210px;
+}
+
+#bus{
+	right: 177px;
+	top: 234px;
+}
+
+#cloud1day{
+	right: 265px;
+	top: -35px;
+}
+
+#cloud2press{
+	right: 154px;
+	top: -10px;
+}
+
+#cloud3foto{
+	right: 81px;
+	top: -8px;
+}
+
+#contact{
+	right: 3px;
+	top: 170px;
+}
+
+#hospitals{
+	right: 158px;
+	top: 177px;
+}
+
+#i{
+	right: 255px;
+	top: 131px;
+}
+
+#motels{
+	right: 217px;
+	top: 169px;
+}
+
+#schools{
+	right: 64px;
+	top: 122px;
+}
+
