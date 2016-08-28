@@ -1,0 +1,16 @@
+
+#IUAfinance30 { min-width: 175px; width: 240px; cursor: pointer;}
+#IUAfinance30 * {margin: 0; padding: 0;}
+#IUAfinance30 .content {overflow: hidden; padding: 4px; font-family: Arial; font-size: 10px; color: #bb0000; background: #f6f6f6; border: 1px solid #bb0000;}
+#IUAfinance30 h1 {overflow: hidden; margin-top: -4px; font-size: 12px; font-weight: bold; height: 20px; line-height: 20px; color: #bb0000;}
+#IUAfinance30 h1 span {float: left; white-space: nowrap;}
+#IUAfinance30 h1 i {float: right; display: inline-block; width: 36px; height: 15px; background: url(http://i.i.ua/v2/logo/logo_small_14_black.png) no-repeat 0 1px transparent; opacity: .3;}
+#IUAfinance30 a, #IUAfinance30 a:hover {border: none; text-decoration: underline; color: #bb0000;}
+#IUAfinance30 dl {overflow: hidden; background: #ffffff; padding: 4px; margin-bottom: 4px;}
+#IUAfinance30 dl dt {font-weight: bold; font-size: 12px;}
+#IUAfinance30 dl dd {clear: left; border-top: 1px dotted #DDD;}
+#IUAfinance30 dl span {display: block; float: left; width: 39%; white-space: nowrap; text-align: right;}
+#IUAfinance30 dl span.th {width: 22%; text-align: left;}
+#IUAfinance30 dl dt span {font-size: 10px; font-weight: normal;}
+#IUAfinance30 dl dd span {line-height: 24px; font-size: 20px; font-family: Trebuchet MS;}
+#IUAfinance30 dl dd span img {vertical-align: middle; margin-right: 1px;}
